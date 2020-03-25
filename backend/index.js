@@ -4,7 +4,7 @@ const logger = require('morgan');
 const cors = require('cors');
 const subscriptionHandler = require('./subscriptionHandler');
 
-var port = process.env.PORT || 30001;
+var port = process.env.PORT || 4000;
 
 const app = express();
 
